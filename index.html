@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Tỷ giá">
+<meta name="theme-color" content="#0b1026">
+<title>Tỷ giá KRW → VND</title>
+<!-- Read-only public view of Exchange Monitor. Data pushed by the owner's laptop. CLAUDE 2026-10-17 -->
+<style>
+:root{--bg:#0b1026;--panel:#121a3a;--line:#2a3568;--text:#eef1ff;--muted:#a9b3d9;--good:#7fe0c9;--old:#ff6b6b;--accent:#7c8cff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:16px;padding-bottom:max(16px,env(safe-area-inset-bottom))}
+main{max-width:760px;margin:0 auto}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+h1{font-size:20px;margin:0}
+h2{font-size:15px;margin:22px 0 8px;color:var(--muted);font-weight:600;letter-spacing:.02em}
+.updated{font-size:12px;color:var(--muted)}
+.updated.old{color:var(--old)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px}
+.card h3{font-size:14px;margin:0 0 8px;display:flex;justify-content:space-between;gap:6px}
+.card h3 small{font-weight:500;color:var(--muted)}
+.row{display:flex;justify-content:space-between;gap:8px;font-variant-numeric:tabular-nums}
+.row span{color:var(--muted);font-size:12px}
+.row b{font-size:20px}
+.usd{margin-top:6px;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.stamp{margin-top:8px;font-size:11px;color:var(--muted)}
+.stamp.old{color:var(--old)}
+.note{font-size:11px;color:var(--muted);margin-top:4px}
+ol{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+li{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+li.best{border-color:var(--good)}
+li.bench{opacity:.75;border-style:dashed}
+li .top{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+li .top b{font-size:17px;white-space:nowrap;font-variant-numeric:tabular-nums}
+li small{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+.loss{color:#ff9b9b}.win{color:var(--good)}
+footer{margin-top:22px;font-size:11px;color:var(--muted)}
+a{color:var(--accent)}
+.error{background:#3a1820;border:1px solid #7a2f3c;border-radius:12px;padding:12px;margin-top:12px}
+</style>
+</head>
+<body>
+<main>
+  <header><h1>Tỷ giá KRW → VND</h1><span id="updated" class="updated">Đang tải…</span></header>
+  <div id="error"></div>
+  <h2>Ngân hàng (chuyển khoản, 1 KRW = … đ)</h2>
+  <section id="cards" class="grid"></section>
+  <h2>Chuyển 1.000.000₩ về tài khoản Việt Nam</h2>
+  <ol id="compare"></ol>
+  <footer>
+    Trang chỉ để xem, cập nhật từ laptop khi có bảng giá mới. Giá tham khảo theo bảng niêm yết của ngân hàng; phí ngân hàng là giả định.
+    Ngày giờ <span style="color:var(--old)">màu đỏ</span> = bảng của ngày trước. App đầy đủ (làm mới, hỏi Hanpass): mở qua Tailscale.
+  </footer>
+</main>
+<script>
+const n=(v,d=2)=>v==null||!isFinite(v)?'—':Number(v).toLocaleString('vi-VN',{maximumFractionDigits:d});
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+async function load(){
+  try{
+    const r=await fetch('data.json?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw Error('HTTP '+r.status);
+    const d=await r.json(), age=(Date.now()-Date.parse(d.generated_at))/60000;
+    const u=document.getElementById('updated');
+    u.textContent='Cập nhật '+new Date(d.generated_at).toLocaleString('vi-VN',{timeZone:'Asia/Seoul',dateStyle:'short',timeStyle:'short'})+' (giờ HQ)'+(age>60?' · laptop có thể đang tắt':'');
+    u.className='updated'+(age>180?' old':'');
+    document.getElementById('cards').innerHTML=d.cards.map(c=>{
+      const krw=c.id==='hanpass'
+        ?`<div class="row"><span>Chuyển về TK VN</span><b>${n(c.krw_vnd.buy)}</b></div>${c.sample_krw?`<div class="note">${n(c.sample_krw,0)}₩ → ${n(c.sample_vnd,0)} đ · phí ${n(c.fee_krw,0)}₩</div>`:''}`
+        :c.id==='wise'
+        ?`<div class="row"><span>Thị trường (tham chiếu)</span><b>${n(c.krw_vnd.buy)}</b></div>`
+        :`<div class="row"><span>Mua</span><b>${n(c.krw_vnd.buy)}</b></div><div class="row"><span>Bán</span><b>${n(c.krw_vnd.sell)}</b></div>`;
+      const usd=(c.usd_vnd&&(c.usd_vnd.buy||c.usd_vnd.sell)&&c.id!=='hanpass')?`<div class="usd">USD: mua ${n(c.usd_vnd.buy,0)} · bán ${n(c.usd_vnd.sell,0)}</div>`:'';
+      return `<article class="card"><h3>${esc(c.name)}${c.reference?'<small>tham chiếu</small>':''}</h3>${krw}${usd}${c.note?`<div class="note">${esc(c.note)}</div>`:''}<div class="stamp${c.old?' old':''}">${esc(c.stamp)}</div></article>`;
+    }).join('');
+    const rows=d.compare_1m_krw||[]; const first=rows.find(x=>!x.benchmark);
+    document.getElementById('compare').innerHTML=rows.map(x=>`<li class="${x.benchmark?'bench':x===first?'best':''}"><div class="top"><span>${esc(x.label)}</span><b>${n(x.receive,0)} đ</b></div><small>${x.benchmark?'Mốc so sánh':x===first?'<span class="win">Tốt nhất</span>':`<span class="loss">−${n(x.loss_vnd,0)} đ</span>`} · ${esc(x.detail)}</small></li>`).join('')||'<li>Chưa đủ dữ liệu.</li>';
+    document.getElementById('error').innerHTML='';
+  }catch(e){document.getElementById('error').innerHTML='<div class="error">Chưa đọc được dữ liệu ('+esc(e.message)+'). Thử tải lại sau.</div>'}
+}
+load(); setInterval(load,5*60000); document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
+</script>
+</body>
+</html>

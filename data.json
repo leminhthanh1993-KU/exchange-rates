@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-18T11:08:12.232Z",
+ "generated_at": "2026-10-18T11:28:12.268Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -63,7 +63,7 @@
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 18/10/2026 20:01 (giờ HQ)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 18/10/2026 20:17 (giờ HQ)",
    "old": false,
    "current": true,
    "fee_krw": 5000,
@@ -82,7 +82,7 @@
     "buy": 25894.5,
     "sell": 25894.5
    },
-   "stamp": "Giá ngày 18/10/2026 20:01 (giờ HQ)",
+   "stamp": "Giá ngày 18/10/2026 20:17 (giờ HQ)",
    "old": false,
    "current": true
   },

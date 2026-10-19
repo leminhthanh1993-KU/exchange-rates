@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T15:21:55.463Z",
+ "generated_at": "2026-10-19T15:41:55.503Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -116,7 +116,7 @@
    },
    "stamp": "Giá ngày 19/10/2026 13:30 (giờ VN)",
    "old": false,
-   "current": false
+   "current": true
   },
   {
    "id": "pvcombank",
@@ -132,7 +132,7 @@
    },
    "stamp": "Giá ngày 19/10/2026 15:54 (giờ VN)",
    "old": false,
-   "current": false
+   "current": true
   },
   {
    "id": "shinhan_vn",
@@ -146,9 +146,9 @@
     "buy": null,
     "sell": 26085
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 19/10/2026 20:25 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 19/10/2026 22:25 (giờ VN)",
    "old": false,
-   "current": false
+   "current": true
   },
   {
    "id": "techcombank",
@@ -187,16 +187,16 @@
    "name": "VietinBank",
    "reference": false,
    "krw_vnd": {
-    "buy": 17.28,
-    "sell": 21.28
+    "buy": 17.25,
+    "sell": 21.25
    },
    "usd_vnd": {
     "buy": 25535,
     "sell": 26075
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 19/10/2026 20:26 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 19/10/2026 22:27 (giờ VN)",
    "old": false,
-   "current": false
+   "current": true
   },
   {
    "id": "woori",

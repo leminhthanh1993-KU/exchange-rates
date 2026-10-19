@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T19:31:55.868Z",
+ "generated_at": "2026-10-19T20:11:55.930Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -56,19 +56,19 @@
    "name": "Hanpass",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.30155204,
+    "buy": 19.30129307,
     "sell": null
    },
    "usd_vnd": {
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 04:09 (giờ HQ)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 05:09 (giờ HQ)",
    "old": false,
    "current": true,
    "fee_krw": 5000,
    "sample_krw": 1000000,
-   "sample_vnd": 19301552
+   "sample_vnd": 19301293
   },
   {
    "id": "wise",
@@ -219,9 +219,9 @@
   {
    "id": "hanpass",
    "label": "Hanpass → TK ngân hàng VN",
-   "receive": 19301552,
+   "receive": 19301293,
    "total_krw": 1005000,
-   "effective": 19.205524378109452,
+   "effective": 19.205266666666667,
    "loss_vnd": 0,
    "benchmark": false,
    "detail": "Giá mẫu 1.000.000₩, có thể lệch theo số tiền · phí 5.000₩ cộng thêm · ~15 phút"
@@ -232,7 +232,7 @@
    "receive": 19193858,
    "total_krw": 1002500,
    "effective": 19.14599301745636,
-   "loss_vnd": 59680,
+   "loss_vnd": 59422,
    "benchmark": false,
    "detail": "Woori Bank bán VND 5,21₩/100đ · phí 2.500₩ (giả định) · 1–3 ngày"
   },
@@ -242,7 +242,7 @@
    "receive": 19193858,
    "total_krw": 1005000,
    "effective": 19.09836616915423,
-   "loss_vnd": 107694,
+   "loss_vnd": 107435,
    "benchmark": false,
    "detail": "Shinhan Hàn Quốc bán VND 5,21₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
   },
@@ -252,7 +252,7 @@
    "receive": 19138329,
    "total_krw": 1002500,
    "effective": 19.090602493765587,
-   "loss_vnd": 115209,
+   "loss_vnd": 114951,
    "benchmark": false,
    "detail": "1.343,9₩/USD → 744.10 USD × BIDV 25.720 · phí 2.500₩ (giả định)"
   },
@@ -262,7 +262,7 @@
    "receive": 19098537,
    "total_krw": 1005000,
    "effective": 19.003519402985074,
-   "loss_vnd": 203015,
+   "loss_vnd": 202756,
    "benchmark": false,
    "detail": "1.346,7₩/USD → 742.56 USD × BIDV 25.720 · phí 5.000₩ (giả định)"
   },

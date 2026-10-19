@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T06:44:08.729Z",
+ "generated_at": "2026-10-19T07:03:08.753Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -8,14 +8,14 @@
    "name": "BIDV",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.63,
-    "sell": 20.26
+    "buy": 18.71,
+    "sell": 20.36
    },
    "usd_vnd": {
-    "buy": 25700,
-    "sell": 26080
+    "buy": 25720,
+    "sell": 26100
    },
-   "stamp": "Giá ngày 19/10/2026 08:12 (giờ VN)",
+   "stamp": "Giá ngày 19/10/2026 13:46 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -44,10 +44,10 @@
     "sell": 19.72386587771203
    },
    "usd_vnd": {
-    "buy": 25391.136801541423,
-    "sell": 26493.0966469428
+    "buy": 25400.770712909438,
+    "sell": 26502.958579881655
    },
-   "stamp": "Giá ngày 19/10/2026 15:39 (giờ HQ)",
+   "stamp": "Giá ngày 19/10/2026 15:54 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -56,33 +56,33 @@
    "name": "Hanpass",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.3387944,
+    "buy": 19.3460436,
     "sell": null
    },
    "usd_vnd": {
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 19/10/2026 15:38 (giờ HQ)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 19/10/2026 15:54 (giờ HQ)",
    "old": false,
    "current": true,
    "fee_krw": 5000,
    "sample_krw": 1000000,
-   "sample_vnd": 19338794
+   "sample_vnd": 19346043
   },
   {
    "id": "wise",
    "name": "Wise",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.475,
-    "sell": 19.475
+    "buy": 19.4684,
+    "sell": 19.4684
    },
    "usd_vnd": {
-    "buy": 25911.5,
-    "sell": 25911.5
+    "buy": 25910.5,
+    "sell": 25910.5
    },
-   "stamp": "Giá ngày 19/10/2026 15:39 (giờ HQ)",
+   "stamp": "Giá ngày 19/10/2026 15:54 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -219,9 +219,9 @@
   {
    "id": "hanpass",
    "label": "Hanpass → TK ngân hàng VN",
-   "receive": 19338794,
+   "receive": 19346044,
    "total_krw": 1005000,
-   "effective": 19.242581094527363,
+   "effective": 19.24979502487562,
    "loss_vnd": 0,
    "benchmark": false,
    "detail": "Giá mẫu 1.000.000₩, có thể lệch theo số tiền · phí 5.000₩ cộng thêm · ~15 phút"
@@ -232,7 +232,7 @@
    "receive": 19267823,
    "total_krw": 1005000,
    "effective": 19.1719631840796,
-   "loss_vnd": 70971,
+   "loss_vnd": 78221,
    "benchmark": false,
    "detail": "Shinhan Hàn Quốc bán VND 5,19₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
   },
@@ -242,36 +242,36 @@
    "receive": 19157088,
    "total_krw": 1002500,
    "effective": 19.109314713216957,
-   "loss_vnd": 133600,
+   "loss_vnd": 140832,
    "benchmark": false,
    "detail": "Woori Bank bán VND 5,22₩/100đ · phí 2.500₩ (giả định) · 1–3 ngày"
   },
   {
    "id": "woori_usd_bidv",
    "label": "Woori Bank chuyển USD → BIDV đổi",
-   "receive": 19126293,
+   "receive": 19141177,
    "total_krw": 1002500,
-   "effective": 19.07859650872818,
-   "loss_vnd": 164395,
+   "effective": 19.0934433915212,
+   "loss_vnd": 156743,
    "benchmark": false,
-   "detail": "1.343,7₩/USD → 744.21 USD × BIDV 25.700 · phí 2.500₩ (giả định)"
+   "detail": "1.343,7₩/USD → 744.21 USD × BIDV 25.720 · phí 2.500₩ (giả định)"
   },
   {
    "id": "shinhan_usd_bidv",
    "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
-   "receive": 19133413,
+   "receive": 19141177,
    "total_krw": 1005000,
-   "effective": 19.038221890547263,
-   "loss_vnd": 205381,
+   "effective": 19.04594726368159,
+   "loss_vnd": 204867,
    "benchmark": false,
-   "detail": "1.343,2₩/USD → 744.49 USD × BIDV 25.700 · phí 5.000₩ (giả định)"
+   "detail": "1.343,7₩/USD → 744.21 USD × BIDV 25.720 · phí 5.000₩ (giả định)"
   },
   {
    "id": "wise",
    "label": "Tỷ giá thị trường (Wise, chỉ tham chiếu)",
-   "receive": 19475000,
+   "receive": 19468400,
    "total_krw": 1000000,
-   "effective": 19.475,
+   "effective": 19.4684,
    "benchmark": true,
    "detail": "Không phải giá chuyển thực tế, chưa gồm phí"
   }

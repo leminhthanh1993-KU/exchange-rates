@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T02:29:34.092Z",
+ "generated_at": "2026-10-20T05:18:26.781Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -8,14 +8,14 @@
    "name": "BIDV",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.72,
-    "sell": 20.37
+    "buy": 18.74,
+    "sell": 20.39
    },
    "usd_vnd": {
     "buy": 25700,
     "sell": 26080
    },
-   "stamp": "Giá ngày 20/10/2026 08:59 (giờ VN)",
+   "stamp": "Giá ngày 20/10/2026 09:18 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -44,10 +44,10 @@
     "sell": 19.72386587771203
    },
    "usd_vnd": {
-    "buy": 25356.454720616566,
-    "sell": 26457.59368836292
+    "buy": 25360.308285163774,
+    "sell": 26461.538461538457
    },
-   "stamp": "Giá ngày 20/10/2026 11:14 (giờ HQ)",
+   "stamp": "Giá ngày 20/10/2026 11:30 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -56,33 +56,33 @@
    "name": "Hanpass",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.32563625,
+    "buy": 19.31475951,
     "sell": null
    },
    "usd_vnd": {
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 11:14 (giờ HQ)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 11:30 (giờ HQ)",
    "old": false,
-   "current": true,
+   "current": false,
    "fee_krw": 5000,
    "sample_krw": 1000000,
-   "sample_vnd": 19325636
+   "sample_vnd": 19314759
   },
   {
    "id": "wise",
    "name": "Wise",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.4866,
-    "sell": 19.4866
+    "buy": 19.4716,
+    "sell": 19.4716
    },
    "usd_vnd": {
-    "buy": 25885,
-    "sell": 25885
+    "buy": 25870,
+    "sell": 25870
    },
-   "stamp": "Giá ngày 20/10/2026 11:15 (giờ HQ)",
+   "stamp": "Giá ngày 20/10/2026 11:31 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -98,7 +98,7 @@
     "buy": null,
     "sell": 26070
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 09:03 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 09:34 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -159,10 +159,10 @@
     "sell": 20.4
    },
    "usd_vnd": {
-    "buy": 25708,
-    "sell": 26073
+    "buy": 25690,
+    "sell": 26054
    },
-   "stamp": "Giá ngày 20/10/2026 08:45 (giờ VN)",
+   "stamp": "Giá ngày 20/10/2026 09:29 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -187,14 +187,14 @@
    "name": "VietinBank",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.49,
-    "sell": 21.09
+    "buy": 18.48,
+    "sell": 21.08
    },
    "usd_vnd": {
-    "buy": 25700,
-    "sell": 26080
+    "buy": 25684,
+    "sell": 26064
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 09:03 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 09:34 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -229,10 +229,10 @@
   {
    "id": "hanpass",
    "label": "Hanpass → TK ngân hàng VN",
-   "receive": 19325636,
+   "receive": 19314760,
    "total_krw": 1005000,
-   "effective": 19.22948855721393,
-   "loss_vnd": 27525,
+   "effective": 19.218666666666667,
+   "loss_vnd": 38401,
    "benchmark": false,
    "detail": "Giá mẫu 1.000.000₩, có thể lệch theo số tiền · phí 5.000₩ cộng thêm · ~15 phút"
   },
@@ -259,19 +259,19 @@
   {
    "id": "shinhan_usd_bidv",
    "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
-   "receive": 19159088,
+   "receive": 19156231,
    "total_krw": 1005000,
-   "effective": 19.063769154228854,
-   "loss_vnd": 194073,
+   "effective": 19.060926368159205,
+   "loss_vnd": 196930,
    "benchmark": false,
-   "detail": "1.341,4₩/USD → 745.49 USD × BIDV 25.700 · phí 5.000₩ (giả định)"
+   "detail": "1.341,6₩/USD → 745.38 USD × BIDV 25.700 · phí 5.000₩ (giả định)"
   },
   {
    "id": "wise",
    "label": "Tỷ giá thị trường (Wise, chỉ tham chiếu)",
-   "receive": 19486600,
+   "receive": 19471600,
    "total_krw": 1000000,
-   "effective": 19.4866,
+   "effective": 19.4716,
    "benchmark": true,
    "detail": "Không phải giá chuyển thực tế, chưa gồm phí"
   }

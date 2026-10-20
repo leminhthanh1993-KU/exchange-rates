@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-19T23:51:56.260Z",
+ "generated_at": "2026-10-20T00:11:56.300Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -40,14 +40,14 @@
    "name": "Shinhan Hàn Quốc",
    "reference": false,
    "krw_vnd": {
-    "buy": 19.23076923076923,
-    "sell": 19.68503937007874
+    "buy": 19.305019305019304,
+    "sell": 19.76284584980237
    },
    "usd_vnd": {
-    "buy": 25371.153846153844,
-    "sell": 26470.472440944883
+    "buy": 25388.030888030884,
+    "sell": 26492.09486166008
    },
-   "stamp": "Giá ngày 20/10/2026 08:31 (giờ HQ)",
+   "stamp": "Giá ngày 20/10/2026 09:10 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -56,33 +56,33 @@
    "name": "Hanpass",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.34376415,
+    "buy": 19.3347002,
     "sell": null
    },
    "usd_vnd": {
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 08:46 (giờ HQ)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 09:02 (giờ HQ)",
    "old": false,
    "current": true,
    "fee_krw": 5000,
    "sample_krw": 1000000,
-   "sample_vnd": 19343764
+   "sample_vnd": 19334700
   },
   {
    "id": "wise",
    "name": "Wise",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.4754,
-    "sell": 19.4754
+    "buy": 19.5106,
+    "sell": 19.5106
    },
    "usd_vnd": {
     "buy": 25894.5,
     "sell": 25894.5
    },
-   "stamp": "Giá ngày 20/10/2026 08:37 (giờ HQ)",
+   "stamp": "Giá ngày 20/10/2026 09:09 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -219,12 +219,22 @@
   {
    "id": "hanpass",
    "label": "Hanpass → TK ngân hàng VN",
-   "receive": 19343764,
+   "receive": 19334700,
    "total_krw": 1005000,
-   "effective": 19.247526368159203,
+   "effective": 19.238507462686567,
    "loss_vnd": 0,
    "benchmark": false,
    "detail": "Giá mẫu 1.000.000₩, có thể lệch theo số tiền · phí 5.000₩ cộng thêm · ~15 phút"
+  },
+  {
+   "id": "shinhan_vnd",
+   "label": "Shinhan Hàn Quốc chuyển VND → TK VN",
+   "receive": 19305019,
+   "total_krw": 1005000,
+   "effective": 19.208974129353233,
+   "loss_vnd": 29681,
+   "benchmark": false,
+   "detail": "Shinhan Hàn Quốc bán VND 5,18₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
   },
   {
    "id": "woori_vnd",
@@ -232,19 +242,19 @@
    "receive": 19193858,
    "total_krw": 1002500,
    "effective": 19.14599301745636,
-   "loss_vnd": 101787,
+   "loss_vnd": 92746,
    "benchmark": false,
    "detail": "Woori Bank bán VND 5,21₩/100đ · phí 2.500₩ (giả định) · 1–3 ngày"
   },
   {
-   "id": "shinhan_vnd",
-   "label": "Shinhan Hàn Quốc chuyển VND → TK VN",
-   "receive": 19230769,
+   "id": "shinhan_usd_bidv",
+   "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
+   "receive": 19186871,
    "total_krw": 1005000,
-   "effective": 19.13509353233831,
-   "loss_vnd": 112995,
+   "effective": 19.09141393034826,
+   "loss_vnd": 147829,
    "benchmark": false,
-   "detail": "Shinhan Hàn Quốc bán VND 5,2₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
+   "detail": "1.340,5₩/USD → 745.99 USD × BIDV 25.720 · phí 5.000₩ (giả định)"
   },
   {
    "id": "woori_usd_bidv",
@@ -252,26 +262,16 @@
    "receive": 19138329,
    "total_krw": 1002500,
    "effective": 19.090602493765587,
-   "loss_vnd": 157316,
+   "loss_vnd": 148275,
    "benchmark": false,
    "detail": "1.343,9₩/USD → 744.10 USD × BIDV 25.720 · phí 2.500₩ (giả định)"
   },
   {
-   "id": "shinhan_usd_bidv",
-   "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
-   "receive": 19126943,
-   "total_krw": 1005000,
-   "effective": 19.03178407960199,
-   "loss_vnd": 216821,
-   "benchmark": false,
-   "detail": "1.344,7₩/USD → 743.66 USD × BIDV 25.720 · phí 5.000₩ (giả định)"
-  },
-  {
    "id": "wise",
    "label": "Tỷ giá thị trường (Wise, chỉ tham chiếu)",
-   "receive": 19475400,
+   "receive": 19510600,
    "total_krw": 1000000,
-   "effective": 19.4754,
+   "effective": 19.5106,
    "benchmark": true,
    "detail": "Không phải giá chuyển thực tế, chưa gồm phí"
   }

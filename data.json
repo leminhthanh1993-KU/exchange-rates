@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-20T05:58:26.812Z",
+ "generated_at": "2026-10-20T06:18:26.839Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -47,7 +47,7 @@
     "buy": 25350.67437379576,
     "sell": 26451.6765285996
    },
-   "stamp": "Giá ngày 20/10/2026 14:50 (giờ HQ)",
+   "stamp": "Giá ngày 20/10/2026 15:07 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -56,33 +56,33 @@
    "name": "Hanpass",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.33159256,
+    "buy": 19.32149273,
     "sell": null
    },
    "usd_vnd": {
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 14:50 (giờ HQ)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 20/10/2026 15:06 (giờ HQ)",
    "old": false,
    "current": true,
    "fee_krw": 5000,
    "sample_krw": 1000000,
-   "sample_vnd": 19331592
+   "sample_vnd": 19321492
   },
   {
    "id": "wise",
    "name": "Wise",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.4869,
-    "sell": 19.4869
+    "buy": 19.4876,
+    "sell": 19.4876
    },
    "usd_vnd": {
     "buy": 25882.5,
     "sell": 25882.5
    },
-   "stamp": "Giá ngày 20/10/2026 14:50 (giờ HQ)",
+   "stamp": "Giá ngày 20/10/2026 15:06 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -229,10 +229,10 @@
   {
    "id": "hanpass",
    "label": "Hanpass → TK ngân hàng VN",
-   "receive": 19331593,
+   "receive": 19321493,
    "total_krw": 1005000,
-   "effective": 19.235415920398008,
-   "loss_vnd": 21568,
+   "effective": 19.225366169154228,
+   "loss_vnd": 31668,
    "benchmark": false,
    "detail": "Giá mẫu 1.000.000₩, có thể lệch theo số tiền · phí 5.000₩ cộng thêm · ~15 phút"
   },
@@ -269,9 +269,9 @@
   {
    "id": "wise",
    "label": "Tỷ giá thị trường (Wise, chỉ tham chiếu)",
-   "receive": 19486900,
+   "receive": 19487600,
    "total_krw": 1000000,
-   "effective": 19.4869,
+   "effective": 19.4876,
    "benchmark": true,
    "detail": "Không phải giá chuyển thực tế, chưa gồm phí"
   }

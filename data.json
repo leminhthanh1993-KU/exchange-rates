@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-25T05:05:23.288Z",
+ "generated_at": "2026-10-25T11:24:19.932Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -65,7 +65,7 @@
    },
    "stamp": "Nguồn không ghi ngày giờ · lấy 25/10/2026 13:47 (giờ HQ)",
    "old": false,
-   "current": true,
+   "current": false,
    "fee_krw": 5000,
    "sample_krw": 1000000,
    "sample_vnd": 19475149

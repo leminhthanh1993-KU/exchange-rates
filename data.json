@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-26T14:44:45.530Z",
+ "generated_at": "2026-10-26T15:04:45.561Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -17,7 +17,7 @@
    },
    "stamp": "Giá ngày 26/10/2026 16:14 (giờ VN)",
    "old": false,
-   "current": true
+   "current": false
   },
   {
    "id": "mbbank",
@@ -48,8 +48,8 @@
     "sell": 26446.640316205532
    },
    "stamp": "Giá ngày 26/10/2026 21:29 (giờ HQ)",
-   "old": false,
-   "current": true
+   "old": true,
+   "current": false
   },
   {
    "id": "hanpass",
@@ -64,8 +64,8 @@
     "sell": null
    },
    "stamp": "Nguồn không ghi ngày giờ · lấy 26/10/2026 23:29 (giờ HQ)",
-   "old": false,
-   "current": true,
+   "old": true,
+   "current": false,
    "fee_krw": 5000,
    "sample_krw": 1000000,
    "sample_vnd": 19408940
@@ -83,8 +83,8 @@
     "sell": 25842.5
    },
    "stamp": "Giá ngày 26/10/2026 23:30 (giờ HQ)",
-   "old": false,
-   "current": true
+   "old": true,
+   "current": false
   },
   {
    "id": "acb",
@@ -98,9 +98,9 @@
     "buy": null,
     "sell": 26020
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 26/10/2026 18:52 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 26/10/2026 21:52 (giờ VN)",
    "old": false,
-   "current": true
+   "current": false
   },
   {
    "id": "agribank",
@@ -116,7 +116,7 @@
    },
    "stamp": "Giá ngày 26/10/2026 08:30 (giờ VN)",
    "old": false,
-   "current": true
+   "current": false
   },
   {
    "id": "pvcombank",
@@ -132,7 +132,7 @@
    },
    "stamp": "Giá ngày 26/10/2026 08:36 (giờ VN)",
    "old": false,
-   "current": true
+   "current": false
   },
   {
    "id": "shinhan_vn",
@@ -146,9 +146,9 @@
     "buy": null,
     "sell": 26035
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 26/10/2026 18:51 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 26/10/2026 21:51 (giờ VN)",
    "old": false,
-   "current": true
+   "current": false
   },
   {
    "id": "techcombank",
@@ -164,7 +164,7 @@
    },
    "stamp": "Giá ngày 26/10/2026 18:00 (giờ VN)",
    "old": false,
-   "current": true
+   "current": false
   },
   {
    "id": "vietcombank",
@@ -180,7 +180,7 @@
    },
    "stamp": "Giá ngày 26/10/2026 10:11 (giờ VN)",
    "old": false,
-   "current": true
+   "current": false
   },
   {
    "id": "vietinbank",
@@ -196,7 +196,7 @@
    },
    "stamp": "Nguồn không ghi ngày giờ · lấy 26/10/2026 20:24 (giờ VN)",
    "old": false,
-   "current": true
+   "current": false
   },
   {
    "id": "woori",
@@ -211,8 +211,8 @@
     "sell": 26426.035502958577
    },
    "stamp": "Giá ngày 26/10/2026 22:59 (giờ HQ)",
-   "old": false,
-   "current": true
+   "old": true,
+   "current": false
   }
  ],
  "compare_1m_krw": [

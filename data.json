@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T15:47:11.735Z",
+ "generated_at": "2026-10-27T16:07:11.774Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -75,14 +75,14 @@
    "name": "Wise",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.4724,
-    "sell": 19.4724
+    "buy": 19.4788,
+    "sell": 19.4788
    },
    "usd_vnd": {
     "buy": 25833,
     "sell": 25833
    },
-   "stamp": "Giá ngày 28/10/2026 00:01 (giờ HQ)",
+   "stamp": "Giá ngày 28/10/2026 01:02 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -269,9 +269,9 @@
   {
    "id": "wise",
    "label": "Tỷ giá thị trường (Wise, chỉ tham chiếu)",
-   "receive": 19472400,
+   "receive": 19478800,
    "total_krw": 1000000,
-   "effective": 19.4724,
+   "effective": 19.4788,
    "benchmark": true,
    "detail": "Không phải giá chuyển thực tế, chưa gồm phí"
   }

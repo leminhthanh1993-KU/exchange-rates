@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-28T06:45:15.649Z",
+ "generated_at": "2026-10-28T07:10:15.685Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -9,13 +9,13 @@
    "reference": false,
    "krw_vnd": {
     "buy": 18.56,
-    "sell": 20.2
+    "sell": 20.19
    },
    "usd_vnd": {
     "buy": 25650,
     "sell": 26030
    },
-   "stamp": "Giá ngày 28/10/2026 09:32 (giờ VN)",
+   "stamp": "Giá ngày 28/10/2026 13:52 (giờ VN)",
    "old": false,
    "current": true
   },

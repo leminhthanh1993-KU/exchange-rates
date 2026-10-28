@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-27T16:32:11.807Z",
+ "generated_at": "2026-10-28T00:43:33.851Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -16,7 +16,7 @@
     "sell": 26025
    },
    "stamp": "Giá ngày 27/10/2026 14:04 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": true
   },
   {
@@ -32,7 +32,7 @@
     "sell": 26028
    },
    "stamp": "Bảng ngày 27/10/2026 · lấy lúc 17:22 (giờ VN)",
-   "old": false,
+   "old": true,
    "note": "Đơn vị chưa xác minh"
   },
   {
@@ -99,7 +99,7 @@
     "sell": 26020
    },
    "stamp": "Nguồn không ghi ngày giờ · lấy 27/10/2026 21:25 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": false
   },
   {
@@ -115,7 +115,7 @@
     "sell": 26040
    },
    "stamp": "Giá ngày 27/10/2026 08:15 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": false
   },
   {
@@ -131,7 +131,7 @@
     "sell": null
    },
    "stamp": "Giá ngày 27/10/2026 08:32 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": false
   },
   {
@@ -147,7 +147,7 @@
     "sell": 26025
    },
    "stamp": "Nguồn không ghi ngày giờ · lấy 27/10/2026 21:25 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": false
   },
   {
@@ -163,7 +163,7 @@
     "sell": 26020
    },
    "stamp": "Giá ngày 27/10/2026 18:00 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": false
   },
   {
@@ -179,7 +179,7 @@
     "sell": 26020
    },
    "stamp": "Giá ngày 27/10/2026 13:49 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": false
   },
   {
@@ -195,7 +195,7 @@
     "sell": 26013
    },
    "stamp": "Nguồn không ghi ngày giờ · lấy 27/10/2026 22:27 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": true
   },
   {

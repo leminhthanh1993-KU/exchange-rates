@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-28T01:22:33.887Z",
+ "generated_at": "2026-10-28T01:42:33.938Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -24,15 +24,15 @@
    "name": "MB Bank",
    "reference": false,
    "krw_vnd": {
-    "buy": 16.8,
-    "sell": 23.2
+    "buy": 16.67,
+    "sell": 23.07
    },
    "usd_vnd": {
     "buy": 25630,
-    "sell": 26028
+    "sell": 26025
    },
-   "stamp": "Bảng ngày 27/10/2026 · lấy lúc 17:22 (giờ VN)",
-   "old": true,
+   "stamp": "Bảng ngày 28/10/2026 · lấy lúc 08:30 (giờ VN)",
+   "old": false,
    "note": "Đơn vị chưa xác minh"
   },
   {

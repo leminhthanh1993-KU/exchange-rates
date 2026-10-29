@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-29T07:30:21.924Z",
+ "generated_at": "2026-10-29T07:50:21.962Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -8,14 +8,14 @@
    "name": "BIDV",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.64,
-    "sell": 20.29
+    "buy": 18.58,
+    "sell": 20.22
    },
    "usd_vnd": {
-    "buy": 25665,
-    "sell": 26045
+    "buy": 25645,
+    "sell": 26025
    },
-   "stamp": "Giá ngày 29/10/2026 08:15 (giờ VN)",
+   "stamp": "Giá ngày 29/10/2026 14:22 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -249,22 +249,22 @@
   {
    "id": "woori_usd_bidv",
    "label": "Woori Bank chuyển USD → BIDV đổi",
-   "receive": 19022384,
+   "receive": 19007560,
    "total_krw": 1002500,
-   "effective": 18.974946633416458,
-   "loss_vnd": 263500,
+   "effective": 18.960159600997507,
+   "loss_vnd": 278324,
    "benchmark": false,
-   "detail": "1.349,2₩/USD → 741.18 USD × BIDV 25.665 · phí 2.500₩ (giả định)"
+   "detail": "1.349,2₩/USD → 741.18 USD × BIDV 25.645 · phí 2.500₩ (giả định)"
   },
   {
    "id": "shinhan_usd_bidv",
    "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
-   "receive": 19019564,
+   "receive": 19004743,
    "total_krw": 1005000,
-   "effective": 18.92493930348259,
-   "loss_vnd": 314414,
+   "effective": 18.910192039800997,
+   "loss_vnd": 329235,
    "benchmark": false,
-   "detail": "1.349,4₩/USD → 741.07 USD × BIDV 25.665 · phí 5.000₩ (giả định)"
+   "detail": "1.349,4₩/USD → 741.07 USD × BIDV 25.645 · phí 5.000₩ (giả định)"
   },
   {
    "id": "wise",

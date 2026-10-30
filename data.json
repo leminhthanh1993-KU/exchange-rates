@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-10-30T06:42:45.714Z",
+ "generated_at": "2026-10-30T07:02:45.750Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -8,14 +8,14 @@
    "name": "BIDV",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.54,
-    "sell": 20.18
+    "buy": 18.58,
+    "sell": 20.22
    },
    "usd_vnd": {
-    "buy": 25620,
-    "sell": 26000
+    "buy": 25600,
+    "sell": 25980
    },
-   "stamp": "Giá ngày 30/10/2026 09:59 (giờ VN)",
+   "stamp": "Giá ngày 30/10/2026 13:44 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -44,10 +44,10 @@
     "sell": 19.569471624266143
    },
    "usd_vnd": {
-    "buy": 25263.86233269598,
-    "sell": 26358.12133072407
+    "buy": 25267.686424474185,
+    "sell": 26362.03522504892
    },
-   "stamp": "Giá ngày 30/10/2026 15:20 (giờ HQ)",
+   "stamp": "Giá ngày 30/10/2026 15:50 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -56,33 +56,33 @@
    "name": "Hanpass",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.41704275,
+    "buy": 19.4415765,
     "sell": null
    },
    "usd_vnd": {
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 30/10/2026 15:18 (giờ HQ)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 30/10/2026 15:49 (giờ HQ)",
    "old": false,
    "current": true,
    "fee_krw": 5000,
    "sample_krw": 1000000,
-   "sample_vnd": 19417042
+   "sample_vnd": 19441576
   },
   {
    "id": "wise",
    "name": "Wise",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.3343,
-    "sell": 19.3343
+    "buy": 19.3319,
+    "sell": 19.3319
    },
    "usd_vnd": {
-    "buy": 25791,
-    "sell": 25791
+    "buy": 25794.5,
+    "sell": 25794.5
    },
-   "stamp": "Giá ngày 30/10/2026 15:20 (giờ HQ)",
+   "stamp": "Giá ngày 30/10/2026 15:51 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -98,7 +98,7 @@
     "buy": null,
     "sell": 26000
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 30/10/2026 12:43 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 30/10/2026 13:44 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -108,13 +108,13 @@
    "reference": false,
    "krw_vnd": {
     "buy": 18.62,
-    "sell": 20.57
+    "sell": 20.6
    },
    "usd_vnd": {
-    "buy": 25640,
-    "sell": 26020
+    "buy": 25610,
+    "sell": 25990
    },
-   "stamp": "Giá ngày 30/10/2026 08:30 (giờ VN)",
+   "stamp": "Giá ngày 30/10/2026 11:30 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -187,14 +187,14 @@
    "name": "VietinBank",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.32,
-    "sell": 20.92
+    "buy": 18.33,
+    "sell": 20.93
    },
    "usd_vnd": {
-    "buy": 25601,
-    "sell": 25981
+    "buy": 25603,
+    "sell": 25983
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 30/10/2026 13:19 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 30/10/2026 13:50 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -207,10 +207,10 @@
     "sell": 19.41747572815534
    },
    "usd_vnd": {
-    "buy": 25165.714285714286,
-    "sell": 26155.339805825242
+    "buy": 25171.428571428572,
+    "sell": 26161.165048543688
    },
-   "stamp": "Giá ngày 30/10/2026 15:20 (giờ HQ)",
+   "stamp": "Giá ngày 30/10/2026 15:50 (giờ HQ)",
    "old": false,
    "current": true
   }
@@ -219,9 +219,9 @@
   {
    "id": "hanpass",
    "label": "Hanpass → TK ngân hàng VN",
-   "receive": 19417043,
+   "receive": 19441577,
    "total_krw": 1005000,
-   "effective": 19.320440796019902,
+   "effective": 19.34485273631841,
    "loss_vnd": 0,
    "benchmark": false,
    "detail": "Giá mẫu 1.000.000₩, có thể lệch theo số tiền · phí 5.000₩ cộng thêm · ~15 phút"
@@ -232,7 +232,7 @@
    "receive": 19120459,
    "total_krw": 1005000,
    "effective": 19.02533233830846,
-   "loss_vnd": 296584,
+   "loss_vnd": 321118,
    "benchmark": false,
    "detail": "Shinhan Hàn Quốc bán VND 5,23₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
   },
@@ -242,36 +242,36 @@
    "receive": 19047619,
    "total_krw": 1002500,
    "effective": 19.000118703241895,
-   "loss_vnd": 321123,
+   "loss_vnd": 345596,
    "benchmark": false,
    "detail": "Woori Bank bán VND 5,25₩/100đ · phí 2.500₩ (giả định) · 1–3 ngày"
   },
   {
    "id": "woori_usd_bidv",
    "label": "Woori Bank chuyển USD → BIDV đổi",
-   "receive": 19020045,
+   "receive": 19000965,
    "total_krw": 1002500,
-   "effective": 18.972613466334163,
-   "loss_vnd": 348697,
+   "effective": 18.953581047381547,
+   "loss_vnd": 392250,
    "benchmark": false,
-   "detail": "1.347₩/USD → 742.39 USD × BIDV 25.620 · phí 2.500₩ (giả định)"
+   "detail": "1.347,3₩/USD → 742.23 USD × BIDV 25.600 · phí 2.500₩ (giả định)"
   },
   {
    "id": "shinhan_usd_bidv",
    "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
-   "receive": 19021457,
+   "receive": 19003786,
    "total_krw": 1005000,
-   "effective": 18.92682288557214,
-   "loss_vnd": 395586,
+   "effective": 18.909239800995024,
+   "loss_vnd": 437791,
    "benchmark": false,
-   "detail": "1.346,9₩/USD → 742.45 USD × BIDV 25.620 · phí 5.000₩ (giả định)"
+   "detail": "1.347,1₩/USD → 742.34 USD × BIDV 25.600 · phí 5.000₩ (giả định)"
   },
   {
    "id": "wise",
    "label": "Tỷ giá thị trường (Wise, chỉ tham chiếu)",
-   "receive": 19334300,
+   "receive": 19331900,
    "total_krw": 1000000,
-   "effective": 19.3343,
+   "effective": 19.3319,
    "benchmark": true,
    "detail": "Không phải giá chuyển thực tế, chưa gồm phí"
   }

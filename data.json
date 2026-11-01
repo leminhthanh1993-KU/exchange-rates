@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T15:02:22.402Z",
+ "generated_at": "2026-11-01T15:22:22.421Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -98,9 +98,9 @@
     "buy": null,
     "sell": 25980
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 01/11/2026 19:06 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 01/11/2026 22:07 (giờ VN)",
    "old": false,
-   "current": false
+   "current": true
   },
   {
    "id": "agribank",
@@ -116,7 +116,7 @@
    },
    "stamp": "Giá ngày 30/10/2026 11:30 (giờ VN)",
    "old": true,
-   "current": false
+   "current": true
   },
   {
    "id": "pvcombank",
@@ -132,7 +132,7 @@
    },
    "stamp": "Giá ngày 01/11/2026 08:01 (giờ VN)",
    "old": false,
-   "current": false
+   "current": true
   },
   {
    "id": "shinhan_vn",
@@ -146,9 +146,9 @@
     "buy": null,
     "sell": 25990
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 01/11/2026 19:04 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 01/11/2026 22:04 (giờ VN)",
    "old": false,
-   "current": false
+   "current": true
   },
   {
    "id": "techcombank",
@@ -194,9 +194,9 @@
     "buy": 25440,
     "sell": 25980
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 01/11/2026 20:08 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 01/11/2026 22:09 (giờ VN)",
    "old": false,
-   "current": false
+   "current": true
   },
   {
    "id": "woori",

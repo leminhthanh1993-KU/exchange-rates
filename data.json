@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-01T15:22:22.421Z",
+ "generated_at": "2026-11-01T15:42:22.456Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -63,9 +63,9 @@
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 01/11/2026 23:24 (giờ HQ)",
-   "old": true,
-   "current": false,
+   "stamp": "Nguồn không ghi ngày giờ · lấy 02/11/2026 00:24 (giờ HQ)",
+   "old": false,
+   "current": true,
    "fee_krw": 5000,
    "sample_krw": 1000000,
    "sample_vnd": 19329876
@@ -82,9 +82,9 @@
     "buy": 25803.5,
     "sell": 25803.5
    },
-   "stamp": "Giá ngày 01/11/2026 23:26 (giờ HQ)",
-   "old": true,
-   "current": false
+   "stamp": "Giá ngày 02/11/2026 00:27 (giờ HQ)",
+   "old": false,
+   "current": true
   },
   {
    "id": "acb",

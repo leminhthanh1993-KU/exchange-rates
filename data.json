@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-03T08:26:33.344Z",
+ "generated_at": "2026-11-03T08:46:33.377Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -98,7 +98,7 @@
     "buy": null,
     "sell": 25950
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 03/11/2026 14:44 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 03/11/2026 15:45 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -140,15 +140,15 @@
    "reference": true,
    "krw_vnd": {
     "buy": null,
-    "sell": 19.87
+    "sell": 19.85
    },
    "usd_vnd": {
     "buy": null,
     "sell": 25935
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 03/11/2026 13:42 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 03/11/2026 15:42 (giờ VN)",
    "old": false,
-   "current": false
+   "current": true
   },
   {
    "id": "techcombank",

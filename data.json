@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-04T06:56:09.822Z",
+ "generated_at": "2026-11-04T07:16:09.851Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -8,14 +8,14 @@
    "name": "BIDV",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.49,
-    "sell": 20.12
+    "buy": 18.44,
+    "sell": 20.06
    },
    "usd_vnd": {
     "buy": 25550,
     "sell": 25930
    },
-   "stamp": "Giá ngày 04/11/2026 10:34 (giờ VN)",
+   "stamp": "Giá ngày 04/11/2026 14:01 (giờ VN)",
    "old": false,
    "current": true
   },

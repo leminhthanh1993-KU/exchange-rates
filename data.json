@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-04T18:24:57.046Z",
+ "generated_at": "2026-11-04T18:44:57.084Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -44,8 +44,8 @@
     "sell": 19.37984496124031
    },
    "usd_vnd": {
-    "buy": 25200.757575757576,
-    "sell": 26282.945736434107
+    "buy": 25179.924242424244,
+    "sell": 26261.62790697674
    },
    "stamp": "Giá ngày 04/11/2026 23:59 (giờ HQ)",
    "old": true,
@@ -75,14 +75,14 @@
    "name": "Wise",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.1723,
-    "sell": 19.1723
+    "buy": 19.1687,
+    "sell": 19.1687
    },
    "usd_vnd": {
     "buy": 25704.5,
     "sell": 25704.5
    },
-   "stamp": "Giá ngày 05/11/2026 02:28 (giờ HQ)",
+   "stamp": "Giá ngày 05/11/2026 03:29 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -259,19 +259,19 @@
   {
    "id": "shinhan_usd_bidv",
    "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
-   "receive": 18839404,
+   "receive": 18854697,
    "total_krw": 1005000,
-   "effective": 18.74567562189055,
-   "loss_vnd": 328999,
+   "effective": 18.76089253731343,
+   "loss_vnd": 313706,
    "benchmark": false,
-   "detail": "1.356,2₩/USD → 737.35 USD × BIDV 25.550 · phí 5.000₩ (giả định)"
+   "detail": "1.355,1₩/USD → 737.95 USD × BIDV 25.550 · phí 5.000₩ (giả định)"
   },
   {
    "id": "wise",
    "label": "Tỷ giá thị trường (Wise, chỉ tham chiếu)",
-   "receive": 19172300,
+   "receive": 19168700,
    "total_krw": 1000000,
-   "effective": 19.1723,
+   "effective": 19.1687,
    "benchmark": true,
    "detail": "Không phải giá chuyển thực tế, chưa gồm phí"
   }

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T03:21:50.371Z",
+ "generated_at": "2026-11-06T03:41:50.411Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -98,7 +98,7 @@
     "buy": null,
     "sell": 25790
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 06/11/2026 09:39 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 06/11/2026 10:40 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -140,13 +140,13 @@
    "reference": true,
    "krw_vnd": {
     "buy": null,
-    "sell": 19.54
+    "sell": 19.44
    },
    "usd_vnd": {
     "buy": null,
-    "sell": 25800
+    "sell": 25785
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 06/11/2026 09:38 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 06/11/2026 10:38 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -171,14 +171,14 @@
    "name": "Vietcombank",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.14,
-    "sell": 19.68
+    "buy": 18.07,
+    "sell": 19.61
    },
    "usd_vnd": {
-    "buy": 25430,
-    "sell": 25810
+    "buy": 25400,
+    "sell": 25780
    },
-   "stamp": "Giá ngày 06/11/2026 08:01 (giờ VN)",
+   "stamp": "Giá ngày 06/11/2026 10:31 (giờ VN)",
    "old": false,
    "current": true
   },

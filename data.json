@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-06T15:41:50.757Z",
+ "generated_at": "2026-11-06T16:26:50.824Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -44,8 +44,8 @@
     "sell": 18.975332068311197
    },
    "usd_vnd": {
-    "buy": 25066.79035250464,
-    "sell": 26130.92979127135
+    "buy": 25079.777365491653,
+    "sell": 26148.007590132827
    },
    "stamp": "Giá ngày 06/11/2026 23:59 (giờ HQ)",
    "old": true,
@@ -259,12 +259,12 @@
   {
    "id": "shinhan_usd_bidv",
    "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
-   "receive": 18440927,
+   "receive": 18428882,
    "total_krw": 1005000,
-   "effective": 18.349181094527363,
-   "loss_vnd": 472539,
+   "effective": 18.337196019900496,
+   "loss_vnd": 484584,
    "benchmark": false,
-   "detail": "1.377,1₩/USD → 726.16 USD × BIDV 25.395 · phí 5.000₩ (giả định)"
+   "detail": "1.378₩/USD → 725.69 USD × BIDV 25.395 · phí 5.000₩ (giả định)"
   },
   {
    "id": "wise",

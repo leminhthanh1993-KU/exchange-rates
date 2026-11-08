@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-08T03:58:41.903Z",
+ "generated_at": "2026-11-08T04:28:41.959Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -194,7 +194,7 @@
     "buy": 25225,
     "sell": 25765
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 08/11/2026 09:24 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 08/11/2026 11:25 (giờ VN)",
    "old": false,
    "current": true
   },

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T02:06:07.134Z",
+ "generated_at": "2026-11-10T02:26:07.159Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -40,14 +40,14 @@
    "name": "Shinhan Hàn Quốc",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.832391713747647,
-    "sell": 19.267822736030826
+    "buy": 18.796992481203006,
+    "sell": 19.23076923076923
    },
    "usd_vnd": {
-    "buy": 25099.811676082863,
-    "sell": 26177.26396917148
+    "buy": 25062.030075187966,
+    "sell": 26136.538461538457
    },
-   "stamp": "Giá ngày 10/11/2026 10:43 (giờ HQ)",
+   "stamp": "Giá ngày 10/11/2026 11:15 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -56,33 +56,33 @@
    "name": "Hanpass",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.04562208,
+    "buy": 19.03695072,
     "sell": null
    },
    "usd_vnd": {
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 10/11/2026 10:44 (giờ HQ)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 10/11/2026 11:15 (giờ HQ)",
    "old": false,
    "current": true,
    "fee_krw": 5000,
    "sample_krw": 1000000,
-   "sample_vnd": 19045622
+   "sample_vnd": 19036950
   },
   {
    "id": "wise",
    "name": "Wise",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.0174,
-    "sell": 19.0174
+    "buy": 19.0012,
+    "sell": 19.0012
    },
    "usd_vnd": {
-    "buy": 25587,
-    "sell": 25587
+    "buy": 25577.5,
+    "sell": 25577.5
    },
-   "stamp": "Giá ngày 10/11/2026 10:44 (giờ HQ)",
+   "stamp": "Giá ngày 10/11/2026 11:15 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -159,10 +159,10 @@
     "sell": 20.4
    },
    "usd_vnd": {
-    "buy": 25400,
-    "sell": 25780
+    "buy": 25393,
+    "sell": 25759
    },
-   "stamp": "Giá ngày 10/11/2026 08:43 (giờ VN)",
+   "stamp": "Giá ngày 10/11/2026 09:10 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -191,10 +191,10 @@
     "sell": 20.61
    },
    "usd_vnd": {
-    "buy": 25398,
-    "sell": 25778
+    "buy": 25394,
+    "sell": 25774
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 10/11/2026 08:44 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 10/11/2026 09:15 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -207,10 +207,10 @@
     "sell": 19.157088122605366
    },
    "usd_vnd": {
-    "buy": 25046.992481203004,
-    "sell": 26024.90421455939
+    "buy": 25062.030075187966,
+    "sell": 26040.229885057473
    },
-   "stamp": "Giá ngày 10/11/2026 10:43 (giờ HQ)",
+   "stamp": "Giá ngày 10/11/2026 11:11 (giờ HQ)",
    "old": false,
    "current": true
   }
@@ -219,9 +219,9 @@
   {
    "id": "hanpass",
    "label": "Hanpass → TK ngân hàng VN",
-   "receive": 19045622,
+   "receive": 19036951,
    "total_krw": 1005000,
-   "effective": 18.950867661691543,
+   "effective": 18.942239800995026,
    "loss_vnd": 0,
    "benchmark": false,
    "detail": "Giá mẫu 1.000.000₩, có thể lệch theo số tiền · phí 5.000₩ cộng thêm · ~15 phút"
@@ -232,46 +232,46 @@
    "receive": 18796992,
    "total_krw": 1002500,
    "effective": 18.750116708229427,
-   "loss_vnd": 201253,
+   "loss_vnd": 192603,
    "benchmark": false,
    "detail": "Woori Bank bán VND 5,32₩/100đ · phí 2.500₩ (giả định) · 1–3 ngày"
   },
   {
    "id": "shinhan_vnd",
    "label": "Shinhan Hàn Quốc chuyển VND → TK VN",
-   "receive": 18832392,
+   "receive": 18796992,
    "total_krw": 1005000,
-   "effective": 18.738698507462686,
-   "loss_vnd": 213230,
+   "effective": 18.70347462686567,
+   "loss_vnd": 239959,
    "benchmark": false,
-   "detail": "Shinhan Hàn Quốc bán VND 5,31₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
+   "detail": "Shinhan Hàn Quốc bán VND 5,32₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
   },
   {
    "id": "woori_usd_bidv",
    "label": "Woori Bank chuyển USD → BIDV đổi",
-   "receive": 18686051,
+   "receive": 18675053,
    "total_krw": 1002500,
-   "effective": 18.639452369077308,
-   "loss_vnd": 312194,
+   "effective": 18.62848179551122,
+   "loss_vnd": 314542,
    "benchmark": false,
-   "detail": "1.358,5₩/USD → 736.11 USD × BIDV 25.385 · phí 2.500₩ (giả định)"
+   "detail": "1.359,3₩/USD → 735.67 USD × BIDV 25.385 · phí 2.500₩ (giả định)"
   },
   {
    "id": "shinhan_usd_bidv",
    "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
-   "receive": 18684675,
+   "receive": 18677801,
    "total_krw": 1005000,
-   "effective": 18.591716417910447,
-   "loss_vnd": 360947,
+   "effective": 18.584876616915423,
+   "loss_vnd": 359150,
    "benchmark": false,
-   "detail": "1.358,6₩/USD → 736.05 USD × BIDV 25.385 · phí 5.000₩ (giả định)"
+   "detail": "1.359,1₩/USD → 735.78 USD × BIDV 25.385 · phí 5.000₩ (giả định)"
   },
   {
    "id": "wise",
    "label": "Tỷ giá thị trường (Wise, chỉ tham chiếu)",
-   "receive": 19017400,
+   "receive": 19001200,
    "total_krw": 1000000,
-   "effective": 19.0174,
+   "effective": 19.0012,
    "benchmark": true,
    "detail": "Không phải giá chuyển thực tế, chưa gồm phí"
   }

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-10T17:40:26.981Z",
+ "generated_at": "2026-11-10T18:00:27.014Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -17,7 +17,7 @@
    },
    "stamp": "Giá ngày 10/11/2026 16:39 (giờ VN)",
    "old": true,
-   "current": true
+   "current": false
   },
   {
    "id": "mbbank",
@@ -40,12 +40,12 @@
    "name": "Shinhan Hàn Quốc",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.832391713747647,
-    "sell": 19.267822736030826
+    "buy": 18.796992481203006,
+    "sell": 19.23076923076923
    },
    "usd_vnd": {
-    "buy": 25109.227871939736,
-    "sell": 26186.897880539495
+    "buy": 25071.42857142857,
+    "sell": 26146.153846153844
    },
    "stamp": "Giá ngày 10/11/2026 23:59 (giờ HQ)",
    "old": true,
@@ -187,15 +187,15 @@
    "name": "VietinBank",
    "reference": false,
    "krw_vnd": {
-    "buy": 16.87,
-    "sell": 20.87
+    "buy": 16.85,
+    "sell": 20.85
    },
    "usd_vnd": {
     "buy": 25240,
     "sell": 25780
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 10/11/2026 22:50 (giờ VN)",
-   "old": true,
+   "stamp": "Nguồn không ghi ngày giờ · lấy 11/11/2026 00:51 (giờ VN)",
+   "old": false,
    "current": true
   },
   {
@@ -227,16 +227,6 @@
    "detail": "Giá mẫu 1.000.000₩, có thể lệch theo số tiền · phí 5.000₩ cộng thêm · ~15 phút"
   },
   {
-   "id": "shinhan_vnd",
-   "label": "Shinhan Hàn Quốc chuyển VND → TK VN",
-   "receive": 18832392,
-   "total_krw": 1005000,
-   "effective": 18.738698507462686,
-   "loss_vnd": 129117,
-   "benchmark": false,
-   "detail": "Shinhan Hàn Quốc bán VND 5,31₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
-  },
-  {
    "id": "woori_usd_bidv",
    "label": "Woori Bank chuyển USD → BIDV đổi",
    "receive": 18752768,
@@ -245,6 +235,16 @@
    "loss_vnd": 161573,
    "benchmark": false,
    "detail": "1.355₩/USD → 738.01 USD × BIDV 25.410 · phí 2.500₩ (giả định)"
+  },
+  {
+   "id": "shinhan_vnd",
+   "label": "Shinhan Hàn Quốc chuyển VND → TK VN",
+   "receive": 18796992,
+   "total_krw": 1005000,
+   "effective": 18.70347462686567,
+   "loss_vnd": 164517,
+   "benchmark": false,
+   "detail": "Shinhan Hàn Quốc bán VND 5,32₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
   },
   {
    "id": "woori_vnd",
@@ -259,12 +259,12 @@
   {
    "id": "shinhan_usd_bidv",
    "label": "Shinhan Hàn Quốc chuyển USD → BIDV đổi",
-   "receive": 18696196,
+   "receive": 18689320,
    "total_krw": 1005000,
-   "effective": 18.603180099502488,
-   "loss_vnd": 265313,
+   "effective": 18.59633830845771,
+   "loss_vnd": 272189,
    "benchmark": false,
-   "detail": "1.359,1₩/USD → 735.78 USD × BIDV 25.410 · phí 5.000₩ (giả định)"
+   "detail": "1.359,6₩/USD → 735.51 USD × BIDV 25.410 · phí 5.000₩ (giả định)"
   },
   {
    "id": "wise",

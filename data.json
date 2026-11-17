@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-17T04:45:02.079Z",
+ "generated_at": "2026-11-17T05:15:02.143Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -187,14 +187,14 @@
    "name": "VietinBank",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.23,
-    "sell": 20.83
+    "buy": 18.25,
+    "sell": 20.85
    },
    "usd_vnd": {
-    "buy": 25543,
-    "sell": 25923
+    "buy": 25552,
+    "sell": 25932
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 17/11/2026 11:10 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 17/11/2026 12:11 (giờ VN)",
    "old": false,
    "current": true
   },

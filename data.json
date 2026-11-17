@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-17T16:57:13.023Z",
+ "generated_at": "2026-11-17T17:17:13.048Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -16,7 +16,7 @@
     "sell": 25930
    },
    "stamp": "Giá ngày 17/11/2026 14:34 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": true
   },
   {
@@ -99,7 +99,7 @@
     "sell": 25940
    },
    "stamp": "Nguồn không ghi ngày giờ · lấy 17/11/2026 23:54 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": true
   },
   {
@@ -115,7 +115,7 @@
     "sell": 25930
    },
    "stamp": "Giá ngày 17/11/2026 11:00 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": true
   },
   {
@@ -131,7 +131,7 @@
     "sell": null
    },
    "stamp": "Giá ngày 17/11/2026 14:40 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": true
   },
   {
@@ -163,7 +163,7 @@
     "sell": 25895
    },
    "stamp": "Giá ngày 17/11/2026 18:00 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": false
   },
   {
@@ -179,7 +179,7 @@
     "sell": 25900
    },
    "stamp": "Giá ngày 17/11/2026 23:00 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": true
   },
   {
@@ -195,7 +195,7 @@
     "sell": 25880
    },
    "stamp": "Nguồn không ghi ngày giờ · lấy 17/11/2026 23:54 (giờ VN)",
-   "old": false,
+   "old": true,
    "current": true
   },
   {

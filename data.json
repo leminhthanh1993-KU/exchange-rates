@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-18T09:34:46.930Z",
+ "generated_at": "2026-11-18T09:59:46.971Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -98,7 +98,7 @@
     "buy": null,
     "sell": 25890
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 18/11/2026 15:53 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 18/11/2026 16:54 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -107,14 +107,14 @@
    "name": "Agribank",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.64,
-    "sell": 20.62
+    "buy": 18.66,
+    "sell": 20.64
    },
    "usd_vnd": {
-    "buy": 25510,
-    "sell": 25890
+    "buy": 25530,
+    "sell": 25910
    },
-   "stamp": "Giá ngày 18/11/2026 08:30 (giờ VN)",
+   "stamp": "Giá ngày 18/11/2026 15:30 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -187,14 +187,14 @@
    "name": "VietinBank",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.34,
-    "sell": 20.94
+    "buy": 18.33,
+    "sell": 20.93
    },
    "usd_vnd": {
-    "buy": 25538,
-    "sell": 25918
+    "buy": 25543,
+    "sell": 25923
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 18/11/2026 15:53 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 18/11/2026 16:54 (giờ VN)",
    "old": false,
    "current": true
   },

@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-19T08:02:22.283Z",
+ "generated_at": "2026-11-19T08:22:22.311Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -98,7 +98,7 @@
     "buy": null,
     "sell": 25900
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 19/11/2026 14:20 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 19/11/2026 15:21 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -123,14 +123,14 @@
    "name": "PVcomBank",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.71999931335449,
-    "sell": 20.31999969482422
+    "buy": 18.61000061035156,
+    "sell": 20.19000053405762
    },
    "usd_vnd": {
     "buy": null,
     "sell": null
    },
-   "stamp": "Giá ngày 19/11/2026 08:37 (giờ VN)",
+   "stamp": "Giá ngày 19/11/2026 14:39 (giờ VN)",
    "old": false,
    "current": true
   },
@@ -187,14 +187,14 @@
    "name": "VietinBank",
    "reference": false,
    "krw_vnd": {
-    "buy": 18.37,
-    "sell": 20.97
+    "buy": 18.35,
+    "sell": 20.95
    },
    "usd_vnd": {
-    "buy": 25567,
-    "sell": 25947
+    "buy": 25553,
+    "sell": 25933
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 19/11/2026 14:20 (giờ VN)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 19/11/2026 15:21 (giờ VN)",
    "old": false,
    "current": true
   },

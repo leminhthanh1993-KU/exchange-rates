@@ -1,6 +1,6 @@
 {
  "schema_version": 1,
- "generated_at": "2026-11-28T11:11:26.412Z",
+ "generated_at": "2026-11-28T11:41:26.451Z",
  "note": "Bảng tỷ giá công khai từ các ngân hàng; giá tham khảo, chưa gồm phí trừ khi ghi rõ.",
  "cards": [
   {
@@ -56,19 +56,19 @@
    "name": "Hanpass",
    "reference": true,
    "krw_vnd": {
-    "buy": 19.32166638,
+    "buy": 19.27333249,
     "sell": null
    },
    "usd_vnd": {
     "buy": null,
     "sell": null
    },
-   "stamp": "Nguồn không ghi ngày giờ · lấy 28/11/2026 20:09 (giờ HQ)",
+   "stamp": "Nguồn không ghi ngày giờ · lấy 28/11/2026 20:40 (giờ HQ)",
    "old": false,
    "current": true,
    "fee_krw": 5000,
    "sample_krw": 1000000,
-   "sample_vnd": 19321666
+   "sample_vnd": 19273332
   },
   {
    "id": "wise",
@@ -82,7 +82,7 @@
     "buy": 25837.5,
     "sell": 25837.5
    },
-   "stamp": "Giá ngày 28/11/2026 20:10 (giờ HQ)",
+   "stamp": "Giá ngày 28/11/2026 20:41 (giờ HQ)",
    "old": false,
    "current": true
   },
@@ -219,9 +219,9 @@
   {
    "id": "hanpass",
    "label": "Hanpass → TK ngân hàng VN",
-   "receive": 19321666,
+   "receive": 19273332,
    "total_krw": 1005000,
-   "effective": 19.22553830845771,
+   "effective": 19.177444776119405,
    "loss_vnd": 0,
    "benchmark": false,
    "detail": "Giá mẫu 1.000.000₩, có thể lệch theo số tiền · phí 5.000₩ cộng thêm · ~15 phút"
@@ -232,7 +232,7 @@
    "receive": 19120459,
    "total_krw": 1005000,
    "effective": 19.02533233830846,
-   "loss_vnd": 201207,
+   "loss_vnd": 152873,
    "benchmark": false,
    "detail": "Shinhan Hàn Quốc bán VND 5,23₩/100đ · phí 5.000₩ (giả định) · 1–3 ngày"
   },
@@ -242,7 +242,7 @@
    "receive": 19022908,
    "total_krw": 1002500,
    "effective": 18.975469326683292,
-   "loss_vnd": 250694,
+   "loss_vnd": 202480,
    "benchmark": false,
    "detail": "1.348,9₩/USD → 741.34 USD × BIDV 25.660 · phí 2.500₩ (giả định)"
   },
@@ -252,7 +252,7 @@
    "receive": 19011407,
    "total_krw": 1002500,
    "effective": 18.963997007481296,
-   "loss_vnd": 262195,
+   "loss_vnd": 213981,
    "benchmark": false,
    "detail": "Woori Bank bán VND 5,26₩/100đ · phí 2.500₩ (giả định) · 1–3 ngày"
   },
@@ -262,7 +262,7 @@
    "receive": 19006000,
    "total_krw": 1005000,
    "effective": 18.911442786069653,
-   "loss_vnd": 315666,
+   "loss_vnd": 267332,
    "benchmark": false,
    "detail": "1.350,1₩/USD → 740.69 USD × BIDV 25.660 · phí 5.000₩ (giả định)"
   },
